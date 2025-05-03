@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+    
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 200px;
+  }
+
+  .counter button {
+    background-color: #555;
+    color: white;
+  }
+
+  .color-picker {
+    margin: 20px;
+  }
+
+  input[type="color"] {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  }
+
+  .output {
+    margin: 20px;
+    font-size: 20px;
+  }
